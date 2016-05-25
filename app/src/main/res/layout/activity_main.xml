@@ -30,7 +30,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Set Alerts"
         android:id="@+id/button"
         android:layout_below="@+id/alarmTimePicker"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Alerts"
+        android:id="@+id/cancelButton"
+        android:layout_below="@+id/alarmTimePicker"
+        android:layout_toRightOf="@+id/button"/>
 </RelativeLayout>
